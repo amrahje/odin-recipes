@@ -1,12 +1,23 @@
 body{
     background-color: beige;
 }
+#logo{
+width: 100px;
+height: auto;
+border-radius: 50px;
+position: absolute;
+align-self: flex-start;
+top: auto;
+
+}
+
 #site-title{
     color: rgb(112, 88, 88);
     font-size: 46px;
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+
 }
 #recipe-list{
  text-align:  center;
