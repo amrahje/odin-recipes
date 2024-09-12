@@ -1,34 +1,39 @@
-body{
+body {
     background-color: beige;
 }
-#logo{
-width: 100px;
-height: auto;
-border-radius: 50px;
-position: absolute;
-align-self: flex-start;
-top: auto;
 
+#logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    cursor: pointer;
+    touch-action: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-#site-title{
+#site-title {
     color: rgb(112, 88, 88);
     font-size: 46px;
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
 
 }
-#recipe-list{
- text-align:  center;
- list-style: none;
- top: auto;
- cursor: pointer;
- touch-action: auto;
- font-family: 'Courier New', Courier, monospace;
- margin-top: auto;
+
+#recipe-list {
+    text-align: center;
+    list-style: none;
+    top: auto;
+    cursor: pointer;
+    touch-action: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: auto;
 }
-a{
+
+a {
     color: black;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
